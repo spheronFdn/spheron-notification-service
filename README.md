@@ -11,7 +11,7 @@ We built the Spheron Notification Service to address the need for a self-hosted 
 To use the Spheron Notification Service, follow the provided instructions to configure and host the service on Spheron Compute. After setup, you can start sending messages to your Discord and Slack channels through the service.
 
 1. Clone this repository: https://github.com/spheronFdn/spheron-notification-service.git
-2. Run `yarn` to install dependencies.'
+2. Run `npm install` to install dependencies.
 3. Create a .env file in the client directory and Add the following:
 ```
 # The port on which the Spheron Notification Service will run
