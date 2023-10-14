@@ -14,12 +14,23 @@ To use the Spheron Notification Service, follow the provided instructions to con
 2. Run `yarn` to install dependencies.'
 3. Create a .env file in the client directory and Add the following:
 ```
-PORT=xxxx
-DISCORD_WEBHOOK_URL=xxxx
-SLACK_WEBHOOK_URL=xxxx
-SECRET_KEY=xxxx
-JWT_SECRET=xxxx
-JWT_EXPIRES_IN=xxxx
+# The port on which the Spheron Notification Service will run
+PORT=
+
+# The Discord Webhook URL for sending notifications to Discord channels
+DISCORD_WEBHOOK_URL=
+
+# The Slack Webhook URL for sending notifications to Slack channels
+SLACK_WEBHOOK_URL=
+
+# Secret key for authorization (adjust this as needed)
+SECRET_KEY=
+
+# Secret key for JWT token generation
+JWT_SECRET=
+
+# JWT token expiration time (e.g., "1h" for one hour, "1d" for one day)
+JWT_EXPIRES_IN=
 ```
 4. If you don't already have a Spheron account, you can create one [here](https://app.spheron.network/#/login).
 5. Visit Spheron Compute docs and follow all the steps from [STEP 3](https://docs.spheron.network/server-guide/express/#step-3-set-default-platform-for-docker-build).
