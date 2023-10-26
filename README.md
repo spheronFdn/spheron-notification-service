@@ -5,7 +5,10 @@ A flexible solution for setting up your own notification service for Discord and
 The Spheron Notification Service is built to give users full control over their notification system. It simplifies the process of setting up notifications and integrates seamlessly with Alchemy webhooks for accurate and timely message delivery.
 
 ### Why did we build this?
-We built the Spheron Notification Service to address the need for a self-hosted and flexible notification system. By allowing users to host and configure the service on Spheron Compute, it provides a reliable and customisable solution for sending messages to Discord and Slack channels.
+We built the Spheron Notification Service for the following reasons:
+1. **Self Hosted:** We are addressing the need for a self-hosted and flexible notification system. By allowing users to host and configure the service on Spheron Compute, it provides a reliable solution for sending messages to Discord and Slack channels.
+2. **Flexibility:** In the context of using Alchemy webhooks, it's important to note that while individuals can directly create Alchemy webhooks, it is often necessary to utilize an additional service to format the response object as custom text messages and then send it to their desired services.
+4. **Security:** Adding an extra layer of service reduces the attack vector and enhances security. Your notifications stay safe and sound.
 
 ## Usage
 To use the Spheron Notification Service, follow the provided instructions to configure and host the service on Spheron Compute. After setup, you can start sending messages to your Discord and Slack channels through the service.
